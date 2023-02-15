@@ -2,6 +2,10 @@
 
 ## 0. Objetivos
 
-O objetivo do projeto PVL (Python Vortex Lattice) é traduzir o código escrito em Fortran para a linguagem Cython, que combina as vantagens de Python e C. O Vortex Lattice Method é amplamente utilizado na indústria aeroespacial para simulações de aeronaves.
+A biblioteca implementa **Vortex Lattice**, um software científico que permite modelar e analisar a aerodinâmica de um corpo por meio de um modelo de pórtico de vórtices. A biblioteca utiliza como base um método de força de pórtico de vórtices para modelar o escoamento ao redor de um corpo, fornecendo uma solução rápida e eficiente para a interação entre o corpo e o escoamento.
 
-A tradução para Cython melhorará a velocidade e eficiência da execução do código, além de torná-lo mais fácil de entender e usar para usuários sem conhecimento avançado em Fortran. O projeto incluirá a tradução do código, testes de desempenho para avaliar a melhoria na velocidade, e a elaboração de documentação clara e acessível para os usuários. Além disso, a compatibilidade com o ecossistema Python será preservada.
+Originalmente a AVL-MIT escrita em FORTRAN, está sendo traduzida para Rust para aproveitar as vantagens da linguagem, como a segurança de memória, a velocidade de execução e a expressividade. A tradução para Rust permite que a biblioteca ofereça uma performance ainda maior e uma melhor experiência de desenvolvimento.
+
+Para tornar a biblioteca acessível a uma ampla gama de usuários, a versão em Rust será consumida como uma biblioteca Python. Isso permite que os usuários utilizem a funcionalidade da biblioteca em um ambiente Python familiar, enquanto se beneficiam da performance e segurança de memória da implementação em Rust.
+
+Com a biblioteca PVL em Rust, os usuários poderão simular e analisar a aerodinâmica de corpos, como asas e hélices, com maior eficiência e rapidez. Além disso, a integração com Python permitirá que os usuários criem interfaces gráficas do usuário e realizem outras tarefas em conjunto com a biblioteca.
