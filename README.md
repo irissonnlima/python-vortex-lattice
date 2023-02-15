@@ -2,7 +2,7 @@
 
 ## 0. Objetivos
 
-A biblioteca implementa **Vortex Lattice**, um software científico que permite modelar e analisar a aerodinâmica de um corpo por meio de um modelo de pórtico de vórtices. A biblioteca utiliza como base um método de força de pórtico de vórtices para modelar o escoamento ao redor de um corpo, fornecendo uma solução rápida e eficiente para a interação entre o corpo e o escoamento.
+A biblioteca implementa **Vortex Lattice**, um software científico que permite modelar e analisar a aerodinâmica de um corpo por meio de um modelo de pórtico de vórtices. Assim, utilizando como base um método de força de pórtico de vórtices para modelar o escoamento ao redor de um corpo, fornecendo uma solução rápida e eficiente para a interação entre o corpo e o escoamento.
 
 Originalmente a AVL-MIT escrita em FORTRAN, está sendo traduzida para Rust para aproveitar as vantagens da linguagem, como a segurança de memória, a velocidade de execução e a expressividade. A tradução para Rust permite que a biblioteca ofereça uma performance ainda maior e uma melhor experiência de desenvolvimento.
 
